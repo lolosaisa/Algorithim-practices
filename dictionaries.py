@@ -28,3 +28,4 @@ phone_no['martha'] = {222, 1111, 4444}
 phone_no['stephen'] = {'stephanie': 3333, 'silvia': 8888}
 #accessing using get methods
 #print(phone_no.get('martha'))
+del phone_no('lolo')
