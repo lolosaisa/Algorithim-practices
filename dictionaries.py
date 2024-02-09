@@ -23,9 +23,10 @@ phone_no = {
 #color_no=dict([('red': 6788), ('purple':8925),('pink':6712)])
 #keys shoud be immutable but the values can be any type and is mutable
 #nested dicts: a dict within a dict
-print(phone_no['mohan'])
+
 phone_no['martha'] = {222, 1111, 4444}
 phone_no['stephen'] = {'stephanie': 3333, 'silvia': 8888}
 #accessing using get methods
 #print(phone_no.get('martha'))
-del phone_no('lolo')
+phone_no.pop('lolo')
+print(phone_no['mohan'])
